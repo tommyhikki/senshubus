@@ -97,7 +97,12 @@ $(function() {
   <div id="fragment-2">
   <article>　
   <section class="search">
-  <input type="text" id="search_id" value="現在の時間">
+  <form action="" method="">
+<fieldset>
+時刻入力：
+<input type="text" id="search_id" placeholder="キーワードを入力"><br>
+</fieldset>
+</form>
   </section>
   <section class="timebox">
 		<div class="button-holder">
@@ -108,10 +113,15 @@ $(function() {
 		</div>
    </section>
 <div id="btn_search">  
-<p><button>検索する</button></p>  
+<p><button type="submit">検索する</button></p>  
 </div> 
 <section class="result">
-<input type="text" id="result_id" value="バス時間表示">
+ <form action="" method="">
+<fieldset>
+時刻結果：
+<input type="text" id="result_id" placeholder="時刻表示"><br>
+</fieldset>
+</form>
 </section>
     </article>　
   </div>
